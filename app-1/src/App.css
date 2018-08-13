@@ -3,10 +3,66 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 1.3s linear;
   height: 80px;
-}
+  margin: auto 5000px auto auto;
 
+}
+.App-logo2{
+  animation: App-logo-spin infinite 1.2s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo3{
+  animation: App-logo-spin infinite 1.1s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo4{
+  animation: App-logo-spin infinite 1s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo5{
+  animation: App-logo-spin infinite .9s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo6{
+  animation: App-logo-spin infinite .8s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo7{
+  animation: App-logo-spin infinite .7s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo8{
+  animation: App-logo-spin infinite .6s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo9{
+  animation: App-logo-spin infinite .5s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo10{
+  animation: App-logo-spin infinite .4s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo11{
+  animation: App-logo-spin infinite .3s linear;
+  height: 80px;
+  float: right; 
+}
+.App-logo12{
+  animation: App-logo-spin infinite .2s linear;
+  height: 80px;
+  float: right; 
+}
 .App-header {
   background-color: #222;
   height: 150px;
