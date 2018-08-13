@@ -3,16 +3,32 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor(){
+    super(); 
+    this.state= {
+        food:[
+          'F', 
+          'O', 
+          'O', 
+          'D ', 
+          'yum',
+          'yummy', 
+          'tidepods'
+        ]
+      
+    }
+  }
   render() {
+    let display = this.state.food.map((element)=>{
+        return <h2> {element} </h2>})
+    
     return (
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome to mylist*</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h2> {display}</h2>
       </div>
     );
   }
